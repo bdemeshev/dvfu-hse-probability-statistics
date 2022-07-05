@@ -1,0 +1,27 @@
+Question
+========
+
+Рассмотрим хи-квадрат случайную величину с $n$ степенями свободы. Укажите множество всех возможных значений, принимаемых данной случайной величиной с ненулевой вероятностью:
+
+Answerlist
+----------
+*  $(0, \infty)$
+*  $\{0, 1, \ldots, n\}$
+*  $[0,n]$
+*  $\{x\in R:\sum_{i=1}^{n}{x_{{}}^{2}}=1\}$
+*  $[0,n^2]$
+* нет верного ответа
+
+Solution
+========
+
+Meta-information
+================
+exname: chiznacheniya
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exextra[Level]: Statistical Reasoning
+exsection: Unclassified

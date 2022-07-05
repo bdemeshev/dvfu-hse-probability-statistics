@@ -1,0 +1,36 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+k = sample(2:7, size = 1) / 10
+b = sample(2:7, size = 1)
+
+```
+
+Question
+========
+Известно, что $\mathbb{E}(\hat a) = `r k`a + `r b`$, функция правдоподобия регулярна и информация Фишера равна $I_F(a) = 1/a^2$.
+
+Найдите теоретическую нижнюю границу $\mathrm{Var}(\hat a)$.
+
+Answerlist
+----------
+* $`r k^2` a^2$
+* $`r k` a^2$
+* $`r b^2` a^2$
+* $`r b` a^2$
+* $a^2$
+
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: cramer-rao
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

@@ -1,0 +1,33 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+```
+
+Question
+========
+Величины $X_i$ независимы и распределены по Пуассону с параметром интенсивности $\lambda$.  
+
+Выберите несмещённую оценку для $\mathbb{E}(X_i)$.
+
+
+Answerlist
+----------
+* $\sum_{i=1}^n (X_i - \bar X)^2 / (n - 1)$
+* $\sum_{i=1}^n X_i / (n - 1)$
+* $\sum_{i=1}^n X_i / (n + 1)$
+* $\sum_{i=1}^n X_i^2 / n$
+* $\sum_{i=1}^n X_i^2 / (n - 1)$
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: unbiased estimator lambda
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

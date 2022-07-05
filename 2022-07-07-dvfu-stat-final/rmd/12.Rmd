@@ -1,0 +1,33 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+mult = sample(2:5, size = 1)
+```
+
+Question
+========
+Теоретическая информация Фишера о параметре $a$ описывается функцией $I_F(a)$, при этом $a = `r mult`b$. 
+
+Какой функцией описывается теоретическая информация Фишера о параметре $b$?
+
+Answerlist
+----------
+* $`r mult^2` I_F(`r mult` b)$
+* $`r mult` I_F(`r mult` b)$
+* $I_F(`r mult` b)$
+* $`r mult` I_F(b)$
+* $`r mult` I_F(b/`r mult`)$
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: Fisher information multiplier
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

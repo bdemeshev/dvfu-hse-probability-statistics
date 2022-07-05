@@ -1,0 +1,39 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+n_obs = 100 * sample(c(1, 4), size = 1)
+p_hat = sample(2:5, size = 1) / 10
+se = sqrt(p_hat * (1 - p_hat) / n_obs)
+right_ci = round(p_hat + qnorm(0.975) * se, digits = 3)
+wrong = round(right_ci + (1:4) * se, digits = 3)
+```
+
+
+Question
+========
+По случайной выборке размером `r n_obs` студентов из всех студентов Вышки доля любителей кричать «Халява приди» равна `r p_hat`.
+
+Найдите правую границу 95\%-й асимптотического доверительного интервала для вероятности того, что случайно выбираемый студент Вышки любит кричать «Халява приди».
+
+
+Answerlist
+----------
+* `r right_ci`
+* `r wrong[1]`
+* `r wrong[2]`
+* `r wrong[3]`
+* `r wrong[4]`
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: CI for proportion
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

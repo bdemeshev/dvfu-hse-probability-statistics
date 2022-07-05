@@ -1,0 +1,32 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+```
+
+Question
+========
+Исследователь Вовочка при проверке гипотезы о равенстве математического ожидания константе по ошибке вместо $t$-распределения использует стандартное нормальное.
+
+Как изменяются при этом вероятность ошибки первого рода $\alpha$ и ошибки второго рода $\beta$?
+
+Answerlist
+----------
+* $\alpha$ растёт, $\beta$ падает
+* $\alpha$ растёт, $\beta$ растёт
+* $\alpha$ падает, $\beta$ падает
+* $\alpha$ падает, $\beta$ растёт
+* $\alpha$ падает, $\beta$ изменяется непредсказуемо
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: normal instead of t
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

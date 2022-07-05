@@ -1,0 +1,34 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+n_obs = 100 * sample(1:7, size = 1)
+```
+
+Question
+========
+Известно, что величины $X_1$, \ldots, $X_{`r n_obs`}$ независимы и имеют экспоненциальное распределение с интенсивностью $\lambda$, и $\ln L(\lambda)$ — 
+логарифмическая функция правдоподобия.
+
+Найдите $\mathbb{E}\left(\frac{\partial \ln L(\lambda)}{\partial\lambda} \right)$.
+
+Answerlist
+----------
+* $0$
+* $`r n_obs`\lambda$
+* $`r n_obs`/\lambda$
+* $`r n_obs`/\lambda^2$
+* $`r n_obs`\lambda^2$
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: expected value of score
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

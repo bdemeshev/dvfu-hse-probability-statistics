@@ -1,0 +1,31 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+
+```
+
+Question
+========
+Выберите верное утверждение о связи уровня значимости $\alpha$ и $P$-значения. 
+
+Answerlist
+----------
+* $\alpha$ и $P$-значение не связаны
+* $P$-значение монотонно растёт с ростом $\alpha$
+* $P$-значение монотонно падает с ростом $\alpha$
+* $P$-значение случайно, ожидание от него монотонно растёт с ростом $\alpha$
+* $P$-значение случайно, ожидание от него монотонно падает с ростом $\alpha$
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: p-value and alpha link
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

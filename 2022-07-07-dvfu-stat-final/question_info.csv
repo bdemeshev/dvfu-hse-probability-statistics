@@ -1,0 +1,82 @@
+var_raw,q_no,name,ans_letter,var_no,filename,local_filename
+exam1,1,39,b,1,../base/stat_2015_2016//39.Rmd,04.Rmd
+exam1,2,moment estimator,d,1,../base/stat_2021_22_final_exam//bb_archetype_17.Rmd,24.Rmd
+exam1,3,right border of CI for asy normal,f,1,../base/stat_2021_22_final_exam//bb_archetype_02.Rmd,09.Rmd
+exam1,4,CI for proportion,f,1,../base/stat_2021_22_final_exam//bb_archetype_19.Rmd,26.Rmd
+exam1,5,normal instead of t,b,1,../base/stat_2021_22_final_exam//bb_archetype_13.Rmd,20.Rmd
+exam1,6,p-value and alpha link,d,1,../base/stat_2021_22_final_exam//bb_archetype_03.Rmd,10.Rmd
+exam1,7,LR test,d,1,../base/stat_2021_22_final_exam//bb_archetype_20.Rmd,27.Rmd
+exam1,8,conditional variance for joint normal,d,1,../base/stat_2021_22_final_exam//bb_archetype_10.Rmd,17.Rmd
+exam1,9,max likelihood estimator,f,1,../base/stat_2021_22_final_exam//bb_archetype_18.Rmd,25.Rmd
+exam1,10,treugolnik,a,1,../base/stat_2018_2019//Potanin_2.Rmd,02.Rmd
+exam1,11,chiznacheniya,c,1,../base/stat_2018_2019//Potanin_5.Rmd,03.Rmd
+exam1,12,38,d,1,../base/stat_2015_2016//38.Rmd,01.Rmd
+exam1,13,Fisher information multiplier,c,1,../base/stat_2021_22_final_exam//bb_archetype_05.Rmd,12.Rmd
+exam1,14,20,a,1,../base/stat_2014_2015//20.Rmd,06.Rmd
+exam1,15,F distribution inversed,a,1,../base/stat_2021_22_final_exam//bb_archetype_12.Rmd,19.Rmd
+exam1,16,sample distribution,b,1,../base/stat_2021_22_final_exam//bb_archetype_15.Rmd,22.Rmd
+exam1,17,t-test assumptions,f,1,../base/stat_2021_22_final_exam//bb_archetype_06.Rmd,13.Rmd
+exam1,18,16,f,1,../base/stat_2014_2015//16.Rmd,05.Rmd
+exam1,19,pearson statistics calculation,b,1,../base/stat_2021_22_final_exam//bb_archetype_04.Rmd,11.Rmd
+exam1,20,2,a,1,../base/stat_2014_2015//2.Rmd,07.Rmd
+exam1,21,knowledge of variance,e,1,../base/stat_2021_22_final_exam//bb_archetype_14.Rmd,21.Rmd
+exam1,22,unbiased estimator lambda,d,1,../base/stat_2021_22_final_exam//bb_archetype_16.Rmd,23.Rmd
+exam1,23,expected value of score,d,1,../base/stat_2021_22_final_exam//bb_archetype_08.Rmd,15.Rmd
+exam1,24,t squared,d,1,../base/stat_2021_22_final_exam//bb_archetype_11.Rmd,18.Rmd
+exam1,25,expected value for joint normal,b,1,../base/stat_2021_22_final_exam//bb_archetype_09.Rmd,16.Rmd
+exam1,26,24,b,1,../base/stat_2016_2017//24.Rmd,08.Rmd
+exam1,27,cramer-rao,e,1,../base/stat_2021_22_final_exam//bb_archetype_07.Rmd,14.Rmd
+exam1,1,38,b,2,../base/stat_2015_2016//38.Rmd,01.Rmd
+exam1,2,2,f,2,../base/stat_2014_2015//2.Rmd,07.Rmd
+exam1,3,cramer-rao,c,2,../base/stat_2021_22_final_exam//bb_archetype_07.Rmd,14.Rmd
+exam1,4,treugolnik,d,2,../base/stat_2018_2019//Potanin_2.Rmd,02.Rmd
+exam1,5,moment estimator,c,2,../base/stat_2021_22_final_exam//bb_archetype_17.Rmd,24.Rmd
+exam1,6,expected value for joint normal,a,2,../base/stat_2021_22_final_exam//bb_archetype_09.Rmd,16.Rmd
+exam1,7,chiznacheniya,a,2,../base/stat_2018_2019//Potanin_5.Rmd,03.Rmd
+exam1,8,conditional variance for joint normal,f,2,../base/stat_2021_22_final_exam//bb_archetype_10.Rmd,17.Rmd
+exam1,9,16,f,2,../base/stat_2014_2015//16.Rmd,05.Rmd
+exam1,10,F distribution inversed,d,2,../base/stat_2021_22_final_exam//bb_archetype_12.Rmd,19.Rmd
+exam1,11,knowledge of variance,d,2,../base/stat_2021_22_final_exam//bb_archetype_14.Rmd,21.Rmd
+exam1,12,Fisher information multiplier,b,2,../base/stat_2021_22_final_exam//bb_archetype_05.Rmd,12.Rmd
+exam1,13,max likelihood estimator,e,2,../base/stat_2021_22_final_exam//bb_archetype_18.Rmd,25.Rmd
+exam1,14,t-test assumptions,d,2,../base/stat_2021_22_final_exam//bb_archetype_06.Rmd,13.Rmd
+exam1,15,pearson statistics calculation,a,2,../base/stat_2021_22_final_exam//bb_archetype_04.Rmd,11.Rmd
+exam1,16,20,a,2,../base/stat_2014_2015//20.Rmd,06.Rmd
+exam1,17,t squared,a,2,../base/stat_2021_22_final_exam//bb_archetype_11.Rmd,18.Rmd
+exam1,18,sample distribution,f,2,../base/stat_2021_22_final_exam//bb_archetype_15.Rmd,22.Rmd
+exam1,19,39,c,2,../base/stat_2015_2016//39.Rmd,04.Rmd
+exam1,20,24,d,2,../base/stat_2016_2017//24.Rmd,08.Rmd
+exam1,21,CI for proportion,f,2,../base/stat_2021_22_final_exam//bb_archetype_19.Rmd,26.Rmd
+exam1,22,p-value and alpha link,c,2,../base/stat_2021_22_final_exam//bb_archetype_03.Rmd,10.Rmd
+exam1,23,expected value of score,f,2,../base/stat_2021_22_final_exam//bb_archetype_08.Rmd,15.Rmd
+exam1,24,unbiased estimator lambda,f,2,../base/stat_2021_22_final_exam//bb_archetype_16.Rmd,23.Rmd
+exam1,25,normal instead of t,e,2,../base/stat_2021_22_final_exam//bb_archetype_13.Rmd,20.Rmd
+exam1,26,LR test,e,2,../base/stat_2021_22_final_exam//bb_archetype_20.Rmd,27.Rmd
+exam1,27,right border of CI for asy normal,f,2,../base/stat_2021_22_final_exam//bb_archetype_02.Rmd,09.Rmd
+exam1,1,expected value for joint normal,a,3,../base/stat_2021_22_final_exam//bb_archetype_09.Rmd,16.Rmd
+exam1,2,2,e,3,../base/stat_2014_2015//2.Rmd,07.Rmd
+exam1,3,24,e,3,../base/stat_2016_2017//24.Rmd,08.Rmd
+exam1,4,F distribution inversed,c,3,../base/stat_2021_22_final_exam//bb_archetype_12.Rmd,19.Rmd
+exam1,5,16,e,3,../base/stat_2014_2015//16.Rmd,05.Rmd
+exam1,6,CI for proportion,d,3,../base/stat_2021_22_final_exam//bb_archetype_19.Rmd,26.Rmd
+exam1,7,38,d,3,../base/stat_2015_2016//38.Rmd,01.Rmd
+exam1,8,knowledge of variance,c,3,../base/stat_2021_22_final_exam//bb_archetype_14.Rmd,21.Rmd
+exam1,9,unbiased estimator lambda,a,3,../base/stat_2021_22_final_exam//bb_archetype_16.Rmd,23.Rmd
+exam1,10,LR test,d,3,../base/stat_2021_22_final_exam//bb_archetype_20.Rmd,27.Rmd
+exam1,11,right border of CI for asy normal,b,3,../base/stat_2021_22_final_exam//bb_archetype_02.Rmd,09.Rmd
+exam1,12,cramer-rao,b,3,../base/stat_2021_22_final_exam//bb_archetype_07.Rmd,14.Rmd
+exam1,13,pearson statistics calculation,d,3,../base/stat_2021_22_final_exam//bb_archetype_04.Rmd,11.Rmd
+exam1,14,conditional variance for joint normal,a,3,../base/stat_2021_22_final_exam//bb_archetype_10.Rmd,17.Rmd
+exam1,15,20,f,3,../base/stat_2014_2015//20.Rmd,06.Rmd
+exam1,16,treugolnik,b,3,../base/stat_2018_2019//Potanin_2.Rmd,02.Rmd
+exam1,17,expected value of score,c,3,../base/stat_2021_22_final_exam//bb_archetype_08.Rmd,15.Rmd
+exam1,18,sample distribution,c,3,../base/stat_2021_22_final_exam//bb_archetype_15.Rmd,22.Rmd
+exam1,19,t-test assumptions,e,3,../base/stat_2021_22_final_exam//bb_archetype_06.Rmd,13.Rmd
+exam1,20,max likelihood estimator,c,3,../base/stat_2021_22_final_exam//bb_archetype_18.Rmd,25.Rmd
+exam1,21,t squared,a,3,../base/stat_2021_22_final_exam//bb_archetype_11.Rmd,18.Rmd
+exam1,22,p-value and alpha link,b,3,../base/stat_2021_22_final_exam//bb_archetype_03.Rmd,10.Rmd
+exam1,23,normal instead of t,c,3,../base/stat_2021_22_final_exam//bb_archetype_13.Rmd,20.Rmd
+exam1,24,39,e,3,../base/stat_2015_2016//39.Rmd,04.Rmd
+exam1,25,chiznacheniya,f,3,../base/stat_2018_2019//Potanin_5.Rmd,03.Rmd
+exam1,26,Fisher information multiplier,c,3,../base/stat_2021_22_final_exam//bb_archetype_05.Rmd,12.Rmd
+exam1,27,moment estimator,f,3,../base/stat_2021_22_final_exam//bb_archetype_17.Rmd,24.Rmd

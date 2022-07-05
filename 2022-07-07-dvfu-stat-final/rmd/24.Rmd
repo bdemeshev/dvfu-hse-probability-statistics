@@ -1,0 +1,41 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+k = sample(c(2, 4, 5), size = 1)
+b = sample(1:9, size = 1)
+bar_x = sample(11:19, size = 1)
+ans = (bar_x - b) / k
+wrong = c(-1, 1, 2, 3) / k + ans
+n_obs = sample(1:5, size = 1) * 100
+```
+
+
+Question
+========
+Величины $X_i$ независимы и одинаково распределены с математическим ожиданием $\mathbb{E}(X_i) = `r k` a + `r b`$. 
+
+По выборке из `r n_obs` наблюдений оказалось, что $\bar X = `r bar_x`$.
+
+Найдите оценку $\hat a$ методом моментов. 
+
+Answerlist
+----------
+* `r ans`
+* `r wrong[1]`
+* `r wrong[2]`
+* `r wrong[3]`
+* `r wrong[4]`
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: moment estimator
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

@@ -1,0 +1,33 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+df = sample(2:9, size = 1)
+```
+
+Question
+========
+Величина $X$ имеет $t$-распределение с `r df` степенями свободы. 
+
+Какое распределение имеет величина $Y = X^2$?
+
+Answerlist
+----------
+* $F_{1, `r df`}$
+* $F_{`r df`, `r df`}$
+* $F_{`r df`, 1}$
+* $t_{`r df^2`}$
+* $\chi^2_{`r df`}$
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: t squared
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

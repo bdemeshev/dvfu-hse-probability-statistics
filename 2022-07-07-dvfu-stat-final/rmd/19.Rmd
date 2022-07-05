@@ -1,0 +1,34 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+df = sample(2:9, size = 1)
+df2 = sample(11:17, size = 1)
+```
+
+Question
+========
+Величина $X$ имеет $F$-распределение с `r df` и `r df2` степенями свободы. 
+
+Какое распределение имеет величина $Y = X^{-1}$?
+
+Answerlist
+----------
+* $F_{`r df2`, `r df`}$
+* $F_{1/`r df2`, 1/`r df`}$
+* $F_{1/`r df`, 1/`r df2`}$
+* $F_{`r df`, `r df2`}$
+* $\chi^2_{`r df + df2`}$
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: F distribution inversed
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

@@ -1,0 +1,38 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+a = c(-3, -1, 15) - sample(1:4, size = 1)
+left_a = - min(a)
+right_a = max(a) / 2
+ans = max(left_a, right_a)
+wrong = ans + c(-1, -0.5, 0.5, 1)
+```
+
+
+Question
+========
+Величины $X_i$ независимы и равномерны на отрезке $[-a;2a]$.
+
+Оцените $a$ методом максимального правдоподобия по выборке из трех наблюдений: `r a[1]`, `r a[2]`, `r a[3]`.
+
+Answerlist
+----------
+* `r ans`
+* `r wrong[1]`
+* `r wrong[2]`
+* `r wrong[3]`
+* `r wrong[4]`
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: max likelihood estimator
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

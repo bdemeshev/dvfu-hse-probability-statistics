@@ -1,0 +1,39 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+n = 10 * sample(c(1, 2, 5), size = 1)
+point = sample(c(1.5, 2.5, 3.5), size = 1)
+answer = (n + point - 4.5) / n
+delta = (1:4) / n
+wrong = answer - delta 
+```
+
+Question
+========
+Кот Матроскин поймал `r n` рыб. Совсем маленьких, весом до 1 кг, он отпустил.
+Оставшиеся три рыбы весили 2 кг, 3 кг и 4 кг. 
+
+Найдите значение выборочной функции распределения массы пойманных рыб в точке `r point` кг. 
+
+
+Answerlist
+----------
+* `r answer`
+* `r wrong[1]`
+* `r wrong[2]`
+* `r wrong[3]`
+* `r wrong[4]`
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: sample distribution
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

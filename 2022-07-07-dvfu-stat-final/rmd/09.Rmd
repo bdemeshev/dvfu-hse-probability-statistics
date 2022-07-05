@@ -1,0 +1,40 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+hat_a = sample(2:5, size = 1)
+hat_var = sample(2:5, size = 1)
+ans_correct = round(hat_a + qnorm(0.975) * sqrt(hat_var), digits = 2)
+n_obs = sample(2:5, size = 1) * 100
+
+wrong_deltas = sqrt(hat_var) * sample(1:6, size = 4)
+ans_wrong = round(ans_correct + wrong_deltas, digits = 2)
+```
+
+Question
+========
+Оценка $\hat a_n$ неизвестного параметра $a$ асимптотически нормальная и несмещённая. По выборке из `r n_obs` наблюдений 
+оказалось, что $\hat a_n = `r hat_a`$ с оценкой дисперсии $\widehat{\mathrm{Var}}(\hat a_n) = `r hat_var`$.
+
+Найдите правую границу симметричного двустороннего 95\%-го доверительного интервала для параметра $a$.
+
+Answerlist
+----------
+*  `r ans_correct`
+*  `r ans_wrong[1]`
+*  `r ans_wrong[2]`
+*  `r ans_wrong[3]`
+*  `r ans_wrong[4]`
+*  нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: right border of CI for asy normal
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...

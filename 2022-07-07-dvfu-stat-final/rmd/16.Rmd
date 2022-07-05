@@ -1,0 +1,36 @@
+```{r data generation, echo = FALSE, results = 'hide'}
+var = sample(2:7, size = 1)
+corr = sample(2:7, size = 1) / 10
+x_value = sample(2:3, size = 1)
+```
+
+Question
+========
+Величины $X$ и $Y$ одинаково распределены с нулевым математическим ожиданием и дисперсией $`r var`$. 
+Вектор $(X, Y)$ имеет многомерное нормальное распределение с корреляцией $`r corr`$.
+
+Найдите $\mathbb{E}(Y\mid X = `r x_value`)$.
+
+Answerlist
+----------
+* $`r corr * x_value`$
+* $0$
+* $`r (1-corr^2)*var`$
+* $`r corr`$
+* $`r (1-corr^2)`$
+* нет верного ответа
+
+ 
+Solution
+========
+
+
+Meta-information
+================
+exname: expected value for joint normal
+extype: schoice
+exsolution: 100000
+exshuffle: 6
+exextra[Type]: Calculation
+exextra[Language]: Russian
+exsection: ...
